@@ -8,7 +8,6 @@ enableRobotsTXT = true
 summaryLength = 15
 paginate = 5
 
-
 [markup]
   [markup.highlight]
     anchorLineNos = false

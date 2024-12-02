@@ -2,7 +2,7 @@
 isSinglePage = true
 
 # Meta Config
-description = "Hello"
+description = "dieguscl's blog"
 
 # Header Configuration
 avatar = "img/profile-picture.jpg"
@@ -12,6 +12,9 @@ favicon = "icons/favicon.ico"
 
 # disqus is a comment system. see https://disqus.com
 disqusShortname = ""
+
+# link used to link to the author's profile
+authorURL = "https://github.com/dieguscl"
 
 [emoji]
 enableEmoji = true
