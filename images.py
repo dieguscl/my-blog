@@ -7,6 +7,9 @@ posts_dir = r"C:\Users\diegus\dieguscl\content\posts"
 attachments_dir = r"C:\Users\diegus\Documents\dieguscl\attachments"
 static_images_dir = r"C:\Users\diegus\dieguscl\static\images"
 
+# Ensure the static images directory exists
+os.makedirs(static_images_dir, exist_ok=True)
+
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):

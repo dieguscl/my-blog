@@ -1,6 +1,6 @@
 
 # Como les va en la vida?
-![[Pasted image 20241203012907.png]]
+!![Image Description](/images/Pasted%20image%2020241203012907.png)
 Hello peooopleeeeeee
 
-![[Pasted image 20241203011628.png]]
+!![Image Description](/images/Pasted%20image%2020241203011628.png)
