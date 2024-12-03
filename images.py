@@ -4,7 +4,7 @@ import shutil
 
 # Paths (using raw strings to handle Windows backslashes correctly)
 posts_dir = r"C:\Users\diegus\dieguscl\content\posts"
-attachments_dir = r"C:\Users\diegus\Documents\dieguscl\posts\attachments"
+attachments_dir = r"C:\Users\diegus\Documents\dieguscl\attachments"
 static_images_dir = r"C:\Users\diegus\dieguscl\static\images"
 
 # Step 1: Process each markdown file in the posts directory
