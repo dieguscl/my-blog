@@ -22,8 +22,9 @@ for filename in os.listdir(posts_dir):
             content = content.replace(f"[[{image}]]", markdown_image)
             # Step 4: Copy the image to the Hugo static/images directory if it exists
             image_source = os.path.join(attachments_dir, image)
+            image_destination = os.path.join(static_images_dir, image)
             if os.path.exists(image_source):
-                shutil.copy(image_source, static_images_dir)
+                shutil.copy(image_source, image_destination)
 
         # Step 5: Write the updated content back to the markdown file
         with open(filepath, "w", encoding="utf-8") as file:
